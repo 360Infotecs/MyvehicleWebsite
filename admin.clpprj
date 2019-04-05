@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project name="E:\xampp\htdocs\admin\admin.clpprj">
+	<settings><PM_URL><![CDATA[http://localhost:8080/admin/]]></PM_URL><PM_HOME_URL><![CDATA[http://localhost:8080/admin/]]></PM_HOME_URL><PM_LIBS><![CDATA[]]></PM_LIBS><PM_FTP_CONNECTION><![CDATA[]]></PM_FTP_CONNECTION><PM_FTP_DIR><![CDATA[]]></PM_FTP_DIR><PM_FTP_UPLOAD_ON_SAVE><![CDATA[INT:0]]></PM_FTP_UPLOAD_ON_SAVE></settings><removed value=";"/><added value=""/><lastopfiles>
+	</lastopfiles>
+	<errors version="5.11">
+		<errfile name="E:\xampp\htdocs\admin\common\functionClass.php">
+			<error val="20;6;21;6;101;1;"/>
+			<error val="20;7;21;7;101;1;"/>
+			<error val="20;8;21;8;101;1;"/>
+			<error val="0;11;10;11;101;1;"/>
+		</errfile>
+	</errors>
+	<cakedata>
+	</cakedata>
+	<dplmenupath>
+	</dplmenupath><laravael>
+	</laravael><smartyassings>
+	</smartyassings><twigtemplate>
+	</twigtemplate><yiidata>
+	</yiidata>
+	<todoblock>
+	</todoblock>
+	<dbgurls>
+	</dbgurls>
+	<filescache>
+		<file name="E:\xampp\htdocs\admin\pages\assets\switcher\js\switcher.js" crc="1485963886"/>
+		<file name="E:\xampp\htdocs\admin\pages\assets\switcher\css\switcher.css" crc="1485963884"/>
+		<file name="E:\xampp\htdocs\admin\pages\assets\switcher\css\red.css" crc="1486561076"/>
+		<file name="E:\xampp\htdocs\admin\pages\assets\switcher\css\purple.css" crc="1486561072"/>
+		<file name="E:\xampp\htdocs\admin\pages\assets\switcher\css\pink.css" crc="1486561074"/>
+		<file name="E:\xampp\htdocs\admin\pages\assets\switcher\css\orange.css" crc="1486561076"/>
+		<file name="E:\xampp\htdocs\admin\pages\assets\switcher\css\green.css" crc="1486561074"/>
+		<file name="E:\xampp\htdocs\admin\pages\assets\switcher\css\blue.css" crc="1486561076"/>
+		<file name="E:\xampp\htdocs\admin\pages\assets\js\slick.min.js" crc="1485963870"/>
+		<file name="E:\xampp\htdocs\admin\pages\assets\js\owl.carousel.min.js" crc="1485963870"/>
+		<file name="E:\xampp\htdocs\admin\pages\assets\js\jquery.min.js" crc="1485963862"/>
+		<file name="E:\xampp\htdocs\admin\pages\assets\js\jquery.countdown.min.js" crc="1485963858"/>
+		<file name="E:\xampp\htdocs\admin\pages\assets\js\interface.js" crc="1485963856"/>
+		<file name="E:\xampp\htdocs\admin\pages\assets\js\countdown_date.js" crc="1485963854"/>
+		<file name="E:\xampp\htdocs\admin\pages\assets\js\bootstrap.min.js" crc="1485963854"/>
+		<file name="E:\xampp\htdocs\admin\pages\assets\js\bootstrap-slider.min.js" crc="1485963852"/>
+		<file name="E:\xampp\htdocs\admin\pages\assets\images\favicon-icon\apple-touch-icon-114-precomposed.html" crc="1540459150"/>
+		<file name="E:\xampp\htdocs\admin\pages\assets\css\style.css" crc="1532630258"/>
+		<file name="E:\xampp\htdocs\admin\pages\assets\css\slick.css" crc="1485963556"/>
+		<file name="E:\xampp\htdocs\admin\pages\assets\css\owl.transitions.css" crc="1485963554"/>
+		<file name="E:\xampp\htdocs\admin\pages\assets\css\owl.carousel.css" crc="1485963554"/>
+		<file name="E:\xampp\htdocs\admin\pages\assets\css\grabbing.html" crc="1540459200"/>
+		<file name="E:\xampp\htdocs\admin\pages\assets\css\font-awesome.min.css" crc="1485963554"/>
+		<file name="E:\xampp\htdocs\admin\pages\assets\css\bootstrap.min.css" crc="1485963550"/>
+		<file name="E:\xampp\htdocs\admin\pages\assets\css\bootstrap-slider.min.css" crc="1485963544"/>
+		<file name="E:\xampp\htdocs\admin\pages\services.html" crc="1485963526"/>
+		<file name="E:\xampp\htdocs\admin\pages\profile-settings.html" crc="1485963526"/>
+		<file name="E:\xampp\htdocs\admin\pages\post-vehicle.html" crc="1485963524"/>
+		<file name="E:\xampp\htdocs\admin\pages\my-vehicles.html" crc="1485963522"/>
+		<file name="E:\xampp\htdocs\admin\pages\listing-grid.html" crc="1485963522"/>
+		<file name="E:\xampp\htdocs\admin\pages\listing-detail.html" crc="1485963518"/>
+		<file name="E:\xampp\htdocs\admin\pages\listing-detail-2.html" crc="1485963520"/>
+		<file name="E:\xampp\htdocs\admin\pages\listing-classic.html" crc="1485963514"/>
+		<file name="E:\xampp\htdocs\admin\pages\index.html" crc="1486561086"/>
+		<file name="E:\xampp\htdocs\admin\pages\index-2.html" crc="1486560740"/>
+		<file name="E:\xampp\htdocs\admin\pages\faq.html" crc="1485963536"/>
+		<file name="E:\xampp\htdocs\admin\pages\dealers-profile.html" crc="1485963536"/>
+		<file name="E:\xampp\htdocs\admin\pages\dealers-list.html" crc="1550561841"/>
+		<file name="E:\xampp\htdocs\admin\pages\contact-us.html" crc="1485963532"/>
+		<file name="E:\xampp\htdocs\admin\pages\compare.html" crc="1485963532"/>
+		<file name="E:\xampp\htdocs\admin\pages\coming-soon.html" crc="1485963540"/>
+		<file name="E:\xampp\htdocs\admin\pages\blog-right-sidebar.html" crc="1485963530"/>
+		<file name="E:\xampp\htdocs\admin\pages\blog-left-sidebar.html" crc="1485963530"/>
+		<file name="E:\xampp\htdocs\admin\pages\blog-detail.html" crc="1485963540"/>
+		<file name="E:\xampp\htdocs\admin\pages\about-us.html" crc="1485963538"/>
+		<file name="E:\xampp\htdocs\admin\pages\404.html" crc="1485963538"/>
+		<file name="E:\xampp\htdocs\admin\common\trendingCar.php" crc="1544112950"/>
+		<file name="E:\xampp\htdocs\admin\common\testimonial.php" crc="1544112884"/>
+		<file name="E:\xampp\htdocs\admin\common\switcher.php" crc="1540462916"/>
+		<file name="E:\xampp\htdocs\admin\common\register.php" crc="1543130254"/>
+		<file name="E:\xampp\htdocs\admin\common\recentCats.php" crc="1547048778"/>
+		<file name="E:\xampp\htdocs\admin\common\populerBrands.php" crc="1544112898"/>
+		<file name="E:\xampp\htdocs\admin\common\navigation.php" crc="1543131510"/>
+		<file name="E:\xampp\htdocs\admin\common\login.php" crc="1543130276"/>
+		<file name="E:\xampp\htdocs\admin\common\headerX.php" crc="1547186586"/>
+		<file name="E:\xampp\htdocs\admin\common\header.php" crc="1550580986"/>
+		<file name="E:\xampp\htdocs\admin\common\head.php" crc="1541381726"/>
+		<file name="E:\xampp\htdocs\admin\common\funFacts.php" crc="1544112908"/>
+		<file name="E:\xampp\htdocs\admin\common\functionClass.php" crc="1540577980"/>
+		<file name="E:\xampp\htdocs\admin\common\forgotPassword.php" crc="1543130418"/>
+		<file name="E:\xampp\htdocs\admin\common\footerTop.php" crc="1540463862"/>
+		<file name="E:\xampp\htdocs\admin\common\footerBottom.php" crc="1548564290"/>
+		<file name="E:\xampp\htdocs\admin\common\filterForm.php" crc="1549734008"/>
+		<file name="E:\xampp\htdocs\admin\common\featuredCar.php" crc="1544112924"/>
+		<file name="E:\xampp\htdocs\admin\common\DBConnect.php" crc="1542385124"/>
+		<file name="E:\xampp\htdocs\admin\common\DBCon.php" crc="1549722028"/>
+		<file name="E:\xampp\htdocs\admin\common\blog.php" crc="1544112930"/>
+		<file name="E:\xampp\htdocs\admin\common\banner.php" crc="1550340468"/>
+		<file name="E:\xampp\htdocs\admin\common\about.php" crc="1544112940"/>
+		<file name="E:\xampp\htdocs\admin\assets\switcher\js\switcher.js" crc="1485963886"/>
+		<file name="E:\xampp\htdocs\admin\assets\switcher\css\switcher.css" crc="1485963884"/>
+		<file name="E:\xampp\htdocs\admin\assets\switcher\css\red.css" crc="1550565475"/>
+		<file name="E:\xampp\htdocs\admin\assets\switcher\css\purple.css" crc="1486561072"/>
+		<file name="E:\xampp\htdocs\admin\assets\switcher\css\pink.css" crc="1486561074"/>
+		<file name="E:\xampp\htdocs\admin\assets\switcher\css\orange.css" crc="1486561076"/>
+		<file name="E:\xampp\htdocs\admin\assets\switcher\css\green.css" crc="1486561074"/>
+		<file name="E:\xampp\htdocs\admin\assets\switcher\css\blue.css" crc="1486561076"/>
+		<file name="E:\xampp\htdocs\admin\assets\js\slick.min.js" crc="1485918870"/>
+		<file name="E:\xampp\htdocs\admin\assets\js\owl.carousel.min.js" crc="1485918870"/>
+		<file name="E:\xampp\htdocs\admin\assets\js\jquery.min.js" crc="1485918862"/>
+		<file name="E:\xampp\htdocs\admin\assets\js\jquery.countdown.min.js" crc="1485918858"/>
+		<file name="E:\xampp\htdocs\admin\assets\js\interface.js" crc="1485918856"/>
+		<file name="E:\xampp\htdocs\admin\assets\js\countdown_date.js" crc="1485918854"/>
+		<file name="E:\xampp\htdocs\admin\assets\js\bootstrap.min.js" crc="1485918854"/>
+		<file name="E:\xampp\htdocs\admin\assets\js\bootstrap-slider.min.js" crc="1485918852"/>
+		<file name="E:\xampp\htdocs\admin\assets\images\favicon-icon\apple-touch-icon-114-precomposed.html" crc="1540459150"/>
+		<file name="E:\xampp\htdocs\admin\assets\css\styleX.css" crc="1540618398"/>
+		<file name="E:\xampp\htdocs\admin\assets\css\style.css" crc="1550586416"/>
+		<file name="E:\xampp\htdocs\admin\assets\css\slick.css" crc="1485918556"/>
+		<file name="E:\xampp\htdocs\admin\assets\css\owl.transitions.css" crc="1485918554"/>
+		<file name="E:\xampp\htdocs\admin\assets\css\owl.carousel.css" crc="1485918554"/>
+		<file name="E:\xampp\htdocs\admin\assets\css\grabbing.html" crc="1540414200"/>
+		<file name="E:\xampp\htdocs\admin\assets\css\font-awesome.min.css" crc="1485918554"/>
+		<file name="E:\xampp\htdocs\admin\assets\css\bootstrap.min.css" crc="1485918550"/>
+		<file name="E:\xampp\htdocs\admin\assets\css\bootstrap-slider.min.css" crc="1485918544"/>
+		<file name="E:\xampp\htdocs\admin\vehicle_info.php" crc="1550340309"/>
+		<file name="E:\xampp\htdocs\admin\services.php" crc="1547224726"/>
+		<file name="E:\xampp\htdocs\admin\profile-settings.php" crc="1542385124"/>
+		<file name="E:\xampp\htdocs\admin\post-vehicle.php" crc="1547224600"/>
+		<file name="E:\xampp\htdocs\admin\my-vehicles.php" crc="1542385124"/>
+		<file name="E:\xampp\htdocs\admin\listing-grid.php" crc="1550596769"/>
+		<file name="E:\xampp\htdocs\admin\listing-classic.php" crc="1550509486"/>
+		<file name="E:\xampp\htdocs\admin\listing-classic - Copy.php" crc="1550581547"/>
+		<file name="E:\xampp\htdocs\admin\index.php" crc="1550340301"/>
+		<file name="E:\xampp\htdocs\admin\function.php" crc="1550592504"/>
+		<file name="E:\xampp\htdocs\admin\dealers-profile.php" crc="1542385124"/>
+		<file name="E:\xampp\htdocs\admin\dealers-list.php" crc="1548402492"/>
+		<file name="E:\xampp\htdocs\admin\contact-us.php" crc="1550508568"/>
+		<file name="E:\xampp\htdocs\admin\compare.php" crc="1548402182"/>
+		<file name="E:\xampp\htdocs\admin\about-us.php" crc="1548402582"/>
+		<file name="E:\xampp\htdocs\admin\404.php" crc="1540472664"/>
+	</filescache>
+</project>
