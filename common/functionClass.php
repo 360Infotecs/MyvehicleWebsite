@@ -3,11 +3,11 @@
 class Database
 {
 
-	
+	/*
 private db_host = ‘’; 
 private db_user = ‘’; 
 private db_pass = ‘’; 
-private db_name =
+private db_name =*/
 
     public function connect(){ 
         try {
