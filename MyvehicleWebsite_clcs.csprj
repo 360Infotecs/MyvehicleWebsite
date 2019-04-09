@@ -1,0 +1,84 @@
+<codestructure version="5.11">
+<phptree>
+<treenode node="admin/connect.php;PHP:PHP Include;E:\xampp\htdocs\MyvehicleWebsite\compate_update.php;f14;2;31;2;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+</treenode>
+<treenode node="common/banner.php;PHP:PHP Include;E:\xampp\htdocs\MyvehicleWebsite\index.php;f20;90;37;90;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+</treenode>
+<treenode node="common/DBCon.php;PHP:PHP Include;E:\xampp\htdocs\MyvehicleWebsite\vehicle_info.php;f26;20;42;20;;E:\xampp\htdocs\MyvehicleWebsite\listing-classic.php;f22;39;38;39;;E:\xampp\htdocs\MyvehicleWebsite\function.php;f15;1;31;1;;E:\xampp\htdocs\MyvehicleWebsite\index.php;f22;22;38;22;;E:\xampp\htdocs\MyvehicleWebsite\listing-grid.php;f22;19;38;19;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+</treenode>
+<treenode node="common/DBConnect.php;PHP:PHP Include;E:\xampp\htdocs\MyvehicleWebsite\profile-settings.php;f9;2;29;2;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+</treenode>
+<treenode node="common/footerBottom.php;PHP:PHP Include;E:\xampp\htdocs\MyvehicleWebsite\vehicle_info.php;f26;573;49;573;;E:\xampp\htdocs\MyvehicleWebsite\services.php;f22;227;45;227;;E:\xampp\htdocs\MyvehicleWebsite\post-vehicle.php;f18;290;41;290;;E:\xampp\htdocs\MyvehicleWebsite\my-vehicles.php;f14;168;37;168;;E:\xampp\htdocs\MyvehicleWebsite\listing-classic.php;f18;211;41;211;;E:\xampp\htdocs\MyvehicleWebsite\dealers-profile.php;f14;300;37;300;;E:\xampp\htdocs\MyvehicleWebsite\dealers-list.php;f22;104;45;104;;E:\xampp\htdocs\MyvehicleWebsite\contact-us.php;f22;142;45;142;;E:\xampp\htdocs\MyvehicleWebsite\compare.php;f20;350;43;350;;E:\xampp\htdocs\MyvehicleWebsite\about-us.php;f22;236;45;236;;E:\xampp\htdocs\MyvehicleWebsite\404.php;f14;86;37;86;;E:\xampp\htdocs\MyvehicleWebsite\index.php;f22;250;45;250;;E:\xampp\htdocs\MyvehicleWebsite\listing-grid.php;f22;221;45;221;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+</treenode>
+<treenode node="common/forgotPassword.php;PHP:PHP Include;E:\xampp\htdocs\MyvehicleWebsite\vehicle_info.php;f23;594;48;594;;E:\xampp\htdocs\MyvehicleWebsite\services.php;f20;246;45;246;;E:\xampp\htdocs\MyvehicleWebsite\post-vehicle.php;f18;312;43;312;;E:\xampp\htdocs\MyvehicleWebsite\my-vehicles.php;f14;191;39;191;;E:\xampp\htdocs\MyvehicleWebsite\listing-classic.php;f18;234;43;234;;E:\xampp\htdocs\MyvehicleWebsite\dealers-profile.php;f14;323;39;323;;E:\xampp\htdocs\MyvehicleWebsite\dealers-list.php;f20;121;45;121;;E:\xampp\htdocs\MyvehicleWebsite\contact-us.php;f20;163;45;163;;E:\xampp\htdocs\MyvehicleWebsite\compare.php;f20;369;45;369;;E:\xampp\htdocs\MyvehicleWebsite\about-us.php;f20;253;45;253;;E:\xampp\htdocs\MyvehicleWebsite\404.php;f14;109;39;109;;E:\xampp\htdocs\MyvehicleWebsite\index.php;f20;267;45;267;;E:\xampp\htdocs\MyvehicleWebsite\listing-grid.php;f20;238;45;238;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+</treenode>
+<treenode node="common/funFacts.php;PHP:PHP Include;E:\xampp\htdocs\MyvehicleWebsite\about-us.php;f20;149;39;149;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+</treenode>
+<treenode node="common/head.php;PHP:PHP Include;E:\xampp\htdocs\MyvehicleWebsite\vehicle_info.php;f23;10;38;10;;E:\xampp\htdocs\MyvehicleWebsite\services.php;f20;10;35;10;;E:\xampp\htdocs\MyvehicleWebsite\post-vehicle.php;f16;10;31;10;;E:\xampp\htdocs\MyvehicleWebsite\my-vehicles.php;f14;10;29;10;;E:\xampp\htdocs\MyvehicleWebsite\listing-classic.php;f20;10;35;10;;E:\xampp\htdocs\MyvehicleWebsite\dealers-profile.php;f14;10;29;10;;E:\xampp\htdocs\MyvehicleWebsite\dealers-list.php;f20;10;35;10;;E:\xampp\htdocs\MyvehicleWebsite\contact-us.php;f20;10;35;10;;E:\xampp\htdocs\MyvehicleWebsite\compare.php;f20;10;35;10;;E:\xampp\htdocs\MyvehicleWebsite\about-us.php;f20;10;35;10;;E:\xampp\htdocs\MyvehicleWebsite\404.php;f14;10;29;10;;E:\xampp\htdocs\MyvehicleWebsite\index.php;f24;9;39;9;;E:\xampp\htdocs\MyvehicleWebsite\listing-grid.php;f20;10;35;10;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+</treenode>
+<treenode node="common/header.php;PHP:PHP Include;E:\xampp\htdocs\MyvehicleWebsite\vehicle_info.php;f26;19;43;19;;E:\xampp\htdocs\MyvehicleWebsite\services.php;f22;18;39;18;;E:\xampp\htdocs\MyvehicleWebsite\listing-classic.php;f22;38;39;38;;E:\xampp\htdocs\MyvehicleWebsite\dealers-list.php;f22;18;39;18;;E:\xampp\htdocs\MyvehicleWebsite\contact-us.php;f22;18;39;18;;E:\xampp\htdocs\MyvehicleWebsite\compare.php;f22;18;39;18;;E:\xampp\htdocs\MyvehicleWebsite\about-us.php;f22;18;39;18;;E:\xampp\htdocs\MyvehicleWebsite\404.php;f16;24;33;24;;E:\xampp\htdocs\MyvehicleWebsite\index.php;f22;21;39;21;;E:\xampp\htdocs\MyvehicleWebsite\listing-grid.php;f22;18;39;18;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+</treenode>
+<treenode node="common/login.php;PHP:PHP Include;E:\xampp\htdocs\MyvehicleWebsite\vehicle_info.php;f23;582;39;582;;E:\xampp\htdocs\MyvehicleWebsite\services.php;f20;238;36;238;;E:\xampp\htdocs\MyvehicleWebsite\post-vehicle.php;f18;301;34;301;;E:\xampp\htdocs\MyvehicleWebsite\my-vehicles.php;f14;179;30;179;;E:\xampp\htdocs\MyvehicleWebsite\listing-classic.php;f18;222;34;222;;E:\xampp\htdocs\MyvehicleWebsite\dealers-profile.php;f14;311;30;311;;E:\xampp\htdocs\MyvehicleWebsite\dealers-list.php;f20;113;36;113;;E:\xampp\htdocs\MyvehicleWebsite\contact-us.php;f20;151;36;151;;E:\xampp\htdocs\MyvehicleWebsite\compare.php;f20;361;36;361;;E:\xampp\htdocs\MyvehicleWebsite\about-us.php;f20;245;36;245;;E:\xampp\htdocs\MyvehicleWebsite\404.php;f14;97;30;97;;E:\xampp\htdocs\MyvehicleWebsite\index.php;f20;259;36;259;;E:\xampp\htdocs\MyvehicleWebsite\listing-grid.php;f20;230;36;230;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+</treenode>
+<treenode node="common/navigation.php;PHP:PHP Include;E:\xampp\htdocs\MyvehicleWebsite\post-vehicle.php;f18;29;39;29;;E:\xampp\htdocs\MyvehicleWebsite\my-vehicles.php;f14;29;35;29;;E:\xampp\htdocs\MyvehicleWebsite\dealers-profile.php;f14;29;35;29;;E:\xampp\htdocs\MyvehicleWebsite\404.php;f14;28;35;28;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+</treenode>
+<treenode node="common/populerBrands.php;PHP:PHP Include;E:\xampp\htdocs\MyvehicleWebsite\404.php;f14;78;38;78;;E:\xampp\htdocs\MyvehicleWebsite\listing-grid.php;f20;215;44;215;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+</treenode>
+<treenode node="common/register.php;PHP:PHP Include;E:\xampp\htdocs\MyvehicleWebsite\vehicle_info.php;f23;588;42;588;;E:\xampp\htdocs\MyvehicleWebsite\services.php;f20;242;39;242;;E:\xampp\htdocs\MyvehicleWebsite\post-vehicle.php;f18;306;37;306;;E:\xampp\htdocs\MyvehicleWebsite\my-vehicles.php;f14;185;33;185;;E:\xampp\htdocs\MyvehicleWebsite\listing-classic.php;f18;228;37;228;;E:\xampp\htdocs\MyvehicleWebsite\dealers-profile.php;f14;317;33;317;;E:\xampp\htdocs\MyvehicleWebsite\dealers-list.php;f20;117;39;117;;E:\xampp\htdocs\MyvehicleWebsite\contact-us.php;f20;157;39;157;;E:\xampp\htdocs\MyvehicleWebsite\compare.php;f20;365;39;365;;E:\xampp\htdocs\MyvehicleWebsite\about-us.php;f20;249;39;249;;E:\xampp\htdocs\MyvehicleWebsite\404.php;f14;103;33;103;;E:\xampp\htdocs\MyvehicleWebsite\index.php;f20;263;39;263;;E:\xampp\htdocs\MyvehicleWebsite\listing-grid.php;f20;234;39;234;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+</treenode>
+<treenode node="common/switcher.php;PHP:PHP Include;E:\xampp\htdocs\MyvehicleWebsite\404.php;f14;16;33;16;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+</treenode>
+<treenode node="DBCon.php;PHP:PHP Include;E:\xampp\htdocs\MyvehicleWebsite\common\recentCats.php;f20;0;29;0;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+</treenode>
+<treenode node="function.php;PHP:PHP Include;E:\xampp\htdocs\MyvehicleWebsite\vehicle_info.php;f26;21;38;21;;E:\xampp\htdocs\MyvehicleWebsite\listing-classic.php;f22;40;34;40;;E:\xampp\htdocs\MyvehicleWebsite\listing-grid.php;f22;20;34;20;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+</treenode>
+<treenode node="MYSQL_DATABASE;PHP:PHP Word;E:\xampp\htdocs\MyvehicleWebsite\common\DBConnect.php;f8;37;22;37;;;;vpos;;v;;r&apos;myvehicles.lk&apos;;;d-1,-1;;b0,0;;m">
+</treenode>
+<treenode node="MYSQL_HOST;PHP:PHP Word;E:\xampp\htdocs\MyvehicleWebsite\common\DBConnect.php;f8;34;18;34;;;;vpos;;v;;r&apos;localhost&apos;;;d-1,-1;;b0,0;;m">
+</treenode>
+<treenode node="MYSQL_PASSWORD;PHP:PHP Word;E:\xampp\htdocs\MyvehicleWebsite\common\DBConnect.php;f8;31;22;31;;;;vpos;;v;;r&apos;&apos;;;d-1,-1;;b0,0;;m">
+</treenode>
+<treenode node="MYSQL_USER;PHP:PHP Word;E:\xampp\htdocs\MyvehicleWebsite\common\DBConnect.php;f8;28;18;28;;;;vpos;;v;;r
+Description
+     This script connects to MySQL using the PDO object. This can be included in web pages where a database connection is needed. Customize these to match your MySQL database connection details. This info should be available from within your hosting panel.;;d-1,-1;;b0,0;;m">
+</treenode>
+<treenode node="Database;PHP:Class Name;E:\xampp\htdocs\MyvehicleWebsite\common\functionClass.php;f0;2;1;37;;;;vpos;;v;;r;;d0,3;;b0,0;;m">
+<treenode node="connect;PHP:Function Name;E:\xampp\htdocs\MyvehicleWebsite\common\functionClass.php;f11;11;5;22;;;;vpos;;v;;r;;d29,11;;b1,0;;m">
+</treenode>
+<treenode node="delete;PHP:Function Name;E:\xampp\htdocs\MyvehicleWebsite\common\functionClass.php;f11;35;33;35;;;;vpos;;v;;r;;d28,35;;b1,0;;m">
+</treenode>
+<treenode node="disconnect;PHP:Function Name;E:\xampp\htdocs\MyvehicleWebsite\common\functionClass.php;f11;25;5;32;;;;vpos;;v;;r;;d32,25;;b1,0;;m">
+</treenode>
+<treenode node="insert;PHP:Function Name;E:\xampp\htdocs\MyvehicleWebsite\common\functionClass.php;f11;34;33;34;;;;vpos;;v;;r;;d28,34;;b1,0;;m">
+</treenode>
+<treenode node="select;PHP:Function Name;E:\xampp\htdocs\MyvehicleWebsite\common\functionClass.php;f11;33;33;33;;;;vpos;;v;;r;;d28,33;;b1,0;;m">
+</treenode>
+<treenode node="update;PHP:Function Name;E:\xampp\htdocs\MyvehicleWebsite\common\functionClass.php;f11;36;33;36;;;;vpos;;v;;r;;d28,36;;b1,0;;m">
+</treenode>
+</treenode>
+<treenode node="display_form;PHP:Function Name;E:\xampp\htdocs\MyvehicleWebsite\profile-settings.php;f0;90;1;311;;;;vpos;;v;;r;;d0,91;;b0,0;;m">
+</treenode>
+<treenode node="display_msg;PHP:Function Name;E:\xampp\htdocs\MyvehicleWebsite\profile-settings.php;f1;76;1;87;;;;vpos;;v;;r;;d0,77;;b0,0;;mmsg;;ptype;;p">
+</treenode>
+<treenode node="GenerateRandomId;PHP:Function Name;E:\xampp\htdocs\MyvehicleWebsite\profile-settings.php;f0;18;1;29;;;;vpos;;v;;r;;d0,19;;b0,0;;m">
+</treenode>
+<treenode node="getAllPostsClassic;PHP:Function Name;E:\xampp\htdocs\MyvehicleWebsite\function.php;f0;530;1;744;;;;vpos;;v;;r;;d30,530;;b0,0;;m">
+</treenode>
+<treenode node="getAllPostsGrid;PHP:Function Name;E:\xampp\htdocs\MyvehicleWebsite\function.php;f0;114;1;283;;;;vpos;;v;;r;;d27,114;;b0,0;;m">
+</treenode>
+<treenode node="getAllSearchClassic;PHP:Function Name;E:\xampp\htdocs\MyvehicleWebsite\function.php;f0;746;1;985;;;;vpos;;v;;r;;d30,746;;b0,0;;m">
+</treenode>
+<treenode node="getAllSearchGrid;PHP:Function Name;E:\xampp\htdocs\MyvehicleWebsite\function.php;f0;286;1;527;;;;vpos;;v;;r;;d27,286;;b0,0;;m">
+</treenode>
+<treenode node="getAllSearchListView;PHP:Function Name;E:\xampp\htdocs\MyvehicleWebsite\function.php;f0;987;1;1250;;;;vpos;;v;;r;;d31,987;;b0,0;;m">
+</treenode>
+<treenode node="getIp;PHP:Function Name;E:\xampp\htdocs\MyvehicleWebsite\function.php;f0;3;1;11;;;;vpos;;v;;r;;d17,3;;b0,0;;m">
+</treenode>
+<treenode node="getNew;PHP:Function Name;E:\xampp\htdocs\MyvehicleWebsite\function.php;f0;15;1;42;;;;vpos;;v;;r;;d18,15;;b0,0;;m">
+</treenode>
+<treenode node="getSimiler;PHP:Function Name;E:\xampp\htdocs\MyvehicleWebsite\function.php;f0;46;1;110;;;;vpos;;v;;r;;d66,46;;b0,0;;mPostTitle;;pClassOfVehicle;;pBrand;;pPostId;;p">
+</treenode>
+<treenode node="insert_user;PHP:Function Name;E:\xampp\htdocs\MyvehicleWebsite\profile-settings.php;f0;32;1;74;;;;vpos;;v;;r;;d0,33;;b0,0;;m">
+</treenode>
+</phptree>
+</codestructure>

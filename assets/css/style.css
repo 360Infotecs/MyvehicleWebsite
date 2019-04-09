@@ -563,10 +563,10 @@ blockquote,
   padding-left: 26px;
   position: relative;
 }
-.radio input[type=radio],
+/*.radio input[type=radio],
 .checkbox input[type=checkbox] {
 	display: none;
-}
+}*/
 .radio label:before {
     background-color:transparent;
 	border-style:solid;

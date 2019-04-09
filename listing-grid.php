@@ -8,21 +8,24 @@
     <meta name="description" content="">
     <title>MyVehicle.lk - Listing Grid</title>
     <?php
-      include_once("common/head.php");
-      ?>
-  </head>
+include_once("common/head.php");
+?>
+<script src="assets/js/jquery-1.10.2.min.js"></script>
+<script src="assets/js/jquery-ui.js"></script>
+<link href = "assets/css/jquery-ui.css" rel = "stylesheet">
+ </head>
   <body>
     <!--Header-->
     <header>
       <?php
-        // Main Header //
-        include_once("common/header.php");
-        include_once("common/DBCon.php");
-        include_once("function.php");
-        global $con, $priceFrom, $priceTo;
-        //Main Header End//
-        ?>
-      <nav id="navigation_bar" class="navbar navbar-default">
+// Main Header //
+include_once("common/header.php");
+include_once("common/DBCon.php");
+include_once("function.php");
+global $con, $priceFrom, $priceTo;
+//Main Header End//
+?>
+     <nav id="navigation_bar" class="navbar navbar-default">
         <div class="container">
           <div class="navbar-header">
             <button id="menu_slide" data-target="#navigation" aria-expanded="false" data-toggle="collapse" class="navbar-toggle collapsed" type="button"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
@@ -82,100 +85,89 @@
           <div class="col-md-9 col-md-push-3">
             
               <?php
-              	global $con;
-			    if(isset($_GET['search']))
-			    {		
-					getAllSearchGrid();
-				}
-	            else
-	            {
-			    	getAllPostsGrid();
-			    }         
-                ?>
+//				global $con;
+//				if (isset($_GET['search'])) {
+//				    getAllSearchGrid();
+//				} else {
+//				    getAllPostsGrid();
+//				}
+				?>
+				
+				<div class="row filter_data">
+
+                </div>
 
           </div>
           <!--Side-Bar-->
           <aside class="col-md-3 col-md-pull-9">
             <div class="sidebar_widget">
-              <div class="widget_heading">
-                <h5><i class="fa fa-filter" aria-hidden="true"></i> Find Your Dream Car </h5>
-              </div>
-              <div class="sidebar_filter">
-                <form action="#" method="get">
-                  <!--<div class="form-group select">
-                    <select class="form-control">
-                      <option>Select Location</option>
-                      <option>Audi</option>
-                      <option>BMW</option>
-                      <option>Nissan</option>
-                      <option>Toyota</option>
-                      <option>Volvo</option>
-                      <option>Mazda</option>
-                      <option>Mercedes-Benz</option>
-                      <option>Lotus</option>
-                    </select>
-                    </div>-->
-                  <div class="form-group select">
-                    <select class="form-control">
-                      <option value="-1">Select Brand</option>
-                      <?php
-                        $sql = mysqli_query($con, "SELECT * FROM brand");
-                        $row = mysqli_num_rows($sql);
-                        while ($row = mysqli_fetch_array($sql)){
-                        echo "<option value='". $row['Id'] ."'>" .$row['Name'] ."</option>" ;
-                        }
-                        ?>
-                    </select>
+            
+                <div class="widget_heading">
+                    <h5><i class="fa fa-filter" aria-hidden="true"></i> Find Your Dream Car </h5>
                   </div>
-                  <!--<div class="form-group select">
-                    <select class="form-control">
-                      <option value="-1">Select Condition</option>
+                               
+                <div class="list-group">
+                    <h6>Price</h6>
+                    <input type="hidden" id="hidden_minimum_price" value="0" />
+                    <input type="hidden" id="hidden_maximum_price" value="65000" />
+                    <p id="price_show">1000 - 65000</p>
+                    <div id="price_range"></div>
+                </div>                
+                <div class="list-group">
+                    <h6>Brand</h6>
+                    <div style="height: 180px; overflow-y: auto; overflow-x: hidden;">
                     <?php
-                      $sql1 = mysqli_query($con, "SELECT * FROM vehiclecondition");
-                      $row1 = mysqli_num_rows($sql1);
-                      while ($row1 = mysqli_fetch_array($sql1)){
-                      echo "<option value='". $row1['Id'] ."'>" .$row1['Name'] ."</option>" ;
-                      }
-                      ?>
-                    </select>
-                    </div>-->
-                  <div class="form-group">
-                  <input type="text" class="form-control" placeholder="Year of Model" maxlength="4" pattern="[0-9]"/>
-                  </div>
-                  <div class="form-group">
-                  <?php
-                  		$sqlFrom = mysqli_query($con, "SELECT MIN(price) as price FROM posts WHERE Status =1");
-                  		$rowFrom = mysqli_num_rows($sqlFrom);
-                        while ($rowFrom = mysqli_fetch_array($sqlFrom)){
-                        $priceFrom = $rowFrom['price'];
-                        }
-                        
-                        $sqlTo = mysqli_query($con, "SELECT MAX(price) as price FROM posts WHERE Status =1");
-                  		$rowTo = mysqli_num_rows($sqlTo);
-                        while ($rowTo = mysqli_fetch_array($sqlTo)){
-                        $priceTo = $rowTo['price'];
-                        }
-                        ?>
-                    <label class="form-label">Price Range ($) </label>
-                    <input id="price_range" type="text" class="span2" value="" data-slider-min="<?php echo $priceFrom; ?>" data-slider-max="<?php echo $priceTo; ?>" data-slider-step="1000" data-slider-value="[<?php echo $priceFrom; ?>,<?php echo $priceTo; ?>]"/>
-                  </div>
-                  <div class="form-group select">
-                    <select class="form-control">
-                      <option value="-1">All</option>
-                      <?php
-                        $sql1 = mysqli_query($con, "SELECT * FROM vehiclecondition");
-                        $row1 = mysqli_num_rows($sql1);
-                        while ($row1 = mysqli_fetch_array($sql1)){
-                        echo "<option value='". $row1['Id'] ."'>" .$row1['Name'] ."</option>" ;
-                        }
-                        ?>
-                    </select>
-                  </div>
-                  <div class="form-group">
-                    <button type="submit" class="btn btn-block"><i class="fa fa-search" aria-hidden="true"></i> Search Car</button>
-                  </div>
-                </form>
-              </div>
+						$sql_brand = mysqli_query($con, "SELECT DISTINCT posts.BrandId AS id,brand.Name AS name FROM posts INNER JOIN brand ON posts.BrandId=brand.Id WHERE posts.Status=1 ORDER BY brand.Name");
+						$row_brand = mysqli_num_rows($sql_brand);
+						while ($row_brand = mysqli_fetch_array($sql_brand)) {
+						?>
+                    <div class="list-group-item checkbox">
+                        <label>
+                        	<input type="checkbox" class="common_selector brand" value="<?php echo $row_brand['id'];?>"  > 
+                        	<?php echo $row_brand['name'];?>
+                        </label>
+                    </div>
+                    <?php
+					}
+					?>
+                   </div>
+                </div>
+
+                <div class="list-group">
+                    <h6>Vehicle Condition</h6>
+                    <?php
+						$sql_condition = mysqli_query($con, "SELECT DISTINCT posts.VehicleConditionId AS id,vehiclecondition.Name AS name FROM posts INNER JOIN vehiclecondition ON posts.VehicleConditionId=vehiclecondition.Id WHERE posts.Status=1 ORDER BY vehiclecondition.Name");
+						$row_condition = mysqli_num_rows($sql_condition);
+						while ($row_condition = mysqli_fetch_array($sql_condition)) {
+						?>
+                    <div class="list-group-item checkbox">
+                        <label>
+	                        <input type="checkbox" class="common_selector brand" value="<?php echo $row_condition['id'];?>"  > 
+	                        <?php echo $row_condition['name'];?>
+						</label>
+                    </div>
+                    <?php
+					}
+					?>
+               </div>
+                
+                <div class="list-group">
+                    <h6>Internal Storage</h6>
+                    <?php
+						$sql_brand = mysqli_query($con, "SELECT DISTINCT posts.BrandId AS id,brand.Name AS name FROM posts INNER JOIN brand ON posts.BrandId=brand.Id WHERE posts.Status=1 ORDER BY brand.Name");
+						$row_brand = mysqli_num_rows($sql_brand);
+						while ($row_brand = mysqli_fetch_array($sql_brand)) {
+						?>
+                    <div class="list-group-item checkbox">
+                        <label>
+	                        <input type="checkbox" class="common_selector brand" value="<?php echo $row_brand['id'];?>"  > 
+							<?php echo $row_brand['name'];?>
+						</label>
+                    </div>
+                    <?php
+					}
+					?>
+               </div>
             </div>
             <div class="sidebar_widget sell_car_quote">
               <div class="white-text div_zindex text-center">
@@ -192,8 +184,8 @@
               <div class="recent_addedcars">
                 <ul>
                   <?php
-                    getNew();
-                    ?>                 
+					getNew();
+					?>                 
                 </ul>
               </div>
             </div>
@@ -201,37 +193,101 @@
           <!--/Side-Bar--> 
         </div>
       </div>
+
+    <style>
+	#loading
+	{
+		text-align:center; 
+		background: url('loader.gif') no-repeat center; 
+		height: 150px;
+	}
+	</style>
+    
+<script>
+$(document).ready(function(){
+
+    filter_data();
+
+    function filter_data()
+    {
+        $('.filter_data').html('<div id="loading" style="" ></div>');
+        var action = 'fetch_data';
+        var minimum_price = $('#hidden_minimum_price').val();
+        var maximum_price = $('#hidden_maximum_price').val();
+        var brand = get_filter('brand');
+        var ram = get_filter('ram');
+        var storage = get_filter('storage');
+        $.ajax({
+            url:"fetch_data.php",
+            method:"POST",
+            data:{action:action, minimum_price:minimum_price, maximum_price:maximum_price, brand:brand, ram:ram, storage:storage},
+            success:function(data){
+                $('.filter_data').html(data);
+            }
+        });
+    }
+
+    function get_filter(class_name)
+    {
+        var filter = [];
+        $('.'+class_name+':checked').each(function(){
+            filter.push($(this).val());
+        });
+        return filter;
+    }
+
+    $('.common_selector').click(function(){
+        filter_data();
+    });
+
+    $('#price_range').slider({
+        range:true,
+        min:1000,
+        max:65000,
+        values:[1000, 65000],
+        step:500,
+        stop:function(event, ui)
+        {
+            $('#price_show').html(ui.values[0] + ' - ' + ui.values[1]);
+            $('#hidden_minimum_price').val(ui.values[0]);
+            $('#hidden_maximum_price').val(ui.values[1]);
+            filter_data();
+        }
+    });
+
+});
+</script>
     </section>
     <!--/Listing-grid-view--> 
     <!--Brands-->
     <?php
-      include_once("common/populerBrands.php");
-      ?>
-    <!-- /Brands--> 
+include_once("common/populerBrands.php");
+?>
+   <!-- /Brands--> 
     <!--Footer -->
     <footer>
       <?php
-        include_once("common/footerBottom.php");
-        ?>
-    </footer>
+include_once("common/footerBottom.php");
+?>
+   </footer>
     <!-- /Footer-->
     <!--Back to top-->
     <div id="back-top" class="back-top"> <a href="#top"><i class="fa fa-angle-up" aria-hidden="true"></i> </a> </div>
     <!--/Back to top-->
     <!--Login-Form -->
     <?php
-      include_once("common/login.php");
-      ///Login-Form // 
-      
-      //Register-Form //
-      include_once("common/register.php");
-      ///Register-Form // 
-      
-      //Forgot-password-Form //
-      include_once("common/forgotPassword.php");
-      ///Forgot-password-Form // 
-      ?>
-    <script src="assets/js/jquery.min.js"></script>
+include_once("common/login.php");
+///Login-Form // 
+
+//Register-Form //
+include_once("common/register.php");
+///Register-Form // 
+
+//Forgot-password-Form //
+include_once("common/forgotPassword.php");
+///Forgot-password-Form // 
+?>
+   <script src="assets/js/jquery.min.js"></script>
     <script src="assets/js/bootstrap.min.js"></script> 
     <script src="assets/js/interface.js"></script> 
     <!--Switcher-->
